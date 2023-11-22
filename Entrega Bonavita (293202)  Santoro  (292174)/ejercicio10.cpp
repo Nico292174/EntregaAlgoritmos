@@ -182,7 +182,7 @@ int main()
     {
         delete matriz[i];
     }
-    delete[] matriz;F
+    delete[] matriz;
 
     return 0;
 }

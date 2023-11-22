@@ -83,7 +83,7 @@ int main()
         }
     }
 
-    cout << "Resultado" << mochila(pesos, popularidades, capacidadTotal, cantidadJuegos);
+    cout << "Resultado: " << mochila(pesos, popularidades, capacidadTotal, cantidadJuegos);
 
     delete[] pesos;
     delete[] popularidades;
