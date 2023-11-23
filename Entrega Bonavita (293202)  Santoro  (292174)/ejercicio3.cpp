@@ -15,7 +15,6 @@ int main()
     for (int i = 0; i < nroPacientes; i++)
     {
         int nro;
-        int orden;
         int tiempo;
         int urg;
 

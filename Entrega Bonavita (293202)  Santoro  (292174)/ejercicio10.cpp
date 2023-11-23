@@ -44,20 +44,6 @@ void desmarcar(int filActual, int colActual, int **&matriz)
     matriz[filActual][colActual] = 0;
 }
 
-// Para saber en que subBloque de la matriz estoy
-int enQueBloqueEstoy(int fil, int col, int cantidadFil, int cantidadCol)
-{
-    int filasPorBloque = cantidadFil / 3;
-    int colsPorBloque = cantidadCol / 3;
-
-    int bloqueFila = fil / filasPorBloque;
-    int bloqueCol = col / colsPorBloque;
-
-    int bloque = bloqueFila * 3 + bloqueCol + 1;
-
-    return bloque;
-}
-
 bool esValida(int fila, int columna, int num, int **matriz, int cantFil, int cantCol)
 {
     // Revisar fila y columna

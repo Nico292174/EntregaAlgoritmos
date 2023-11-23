@@ -2,7 +2,7 @@
 #include <climits>
 using namespace std;
 
-int mochila(int *pesos, int *popularidad, int capacidadPlay, int cantidadJuegos)
+int BT(int *pesos, int *popularidad, int capacidadPlay, int cantidadJuegos)
 {
     int **matriz = new int *[cantidadJuegos + 1]();
     for (int i = 0; i <= cantidadJuegos; i++)
@@ -83,7 +83,7 @@ int main()
         }
     }
 
-    cout << mochila(pesos, popularidades, capacidadTotal, cantidadJuegos);
+    cout << BT(pesos, popularidades, capacidadTotal, cantidadJuegos);
 
     delete[] pesos;
     delete[] popularidades;
