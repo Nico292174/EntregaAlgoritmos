@@ -26,7 +26,6 @@ int main()
         heap->insertar(nro, i, tiempo, urg);
     }
 
-    cout << "Salida: " << endl;
     while (!heap->vacio())
     {
         cout << heap->tope()->nroPaciente << endl;

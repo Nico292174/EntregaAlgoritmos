@@ -40,8 +40,6 @@ int main()
         l = l->sig;
     }
 
-    cout << "Solucion: " << sol;
-
     g->destruir();
 
     return 0;

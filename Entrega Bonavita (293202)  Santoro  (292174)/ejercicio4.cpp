@@ -40,7 +40,6 @@ int main()
 
     if (resultado != NULL)
     {
-        cout << "Solucion: " << endl;
         while (resultado != NULL)
         {
             cout << resultado->comida << endl;
