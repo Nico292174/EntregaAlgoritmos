@@ -42,5 +42,7 @@ int main()
 
     g->destruir();
 
+    cout << sol;
+
     return 0;
 }

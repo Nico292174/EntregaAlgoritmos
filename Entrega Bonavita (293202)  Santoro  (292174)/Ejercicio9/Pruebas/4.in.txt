@@ -1,7 +1,0 @@
-100
-2023
-4
-FinalFantasyXV 40 90 2021
-GodOfWar 20 85 2022
-TheLastOfUs 30 80 2020
-HorizonZeroDawn 50 70 2023
